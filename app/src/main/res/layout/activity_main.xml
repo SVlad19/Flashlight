@@ -2,10 +2,11 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clMain"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@color/background">
+    android:background="@color/background"
+    tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/tvHeader"
@@ -43,32 +44,31 @@
                 android:id="@+id/btnRed"
                 android:layout_width="match_parent"
                 android:layout_height="90dp"
-                android:text="Red"
                 android:backgroundTint="@color/red"
-                />
+                android:text="Red" />
 
             <Button
                 android:id="@+id/btnWhite"
                 android:layout_width="match_parent"
                 android:layout_height="88dp"
+                android:backgroundTint="@color/white"
                 android:text="White"
-                android:textColor="@color/black"
-                android:backgroundTint="@color/white"/>
+                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/btnBlue"
                 android:layout_width="match_parent"
                 android:layout_height="90dp"
-                android:text="Blue"
-                android:backgroundTint="@color/blue"/>
+                android:backgroundTint="@color/blue"
+                android:text="Blue" />
 
             <Button
                 android:id="@+id/btnGreen"
                 android:layout_width="match_parent"
                 android:layout_height="90dp"
+                android:backgroundTint="@color/green"
                 android:text="Green"
-                android:textColor="@color/black"
-                android:backgroundTint="@color/green"/>
+                android:textColor="@color/black" />
         </LinearLayout>
 
         <LinearLayout
@@ -83,31 +83,31 @@
                 android:id="@+id/btnCian"
                 android:layout_width="match_parent"
                 android:layout_height="90dp"
-                android:text="Cian"
-                android:textColor="@color/black"
-                android:backgroundTint="@color/cian"/>
+                android:backgroundTint="@color/cyan"
+                android:text="Cyan"
+                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/btnLightGray"
                 android:layout_width="match_parent"
                 android:layout_height="90dp"
-                android:text="LightGray"
-                android:backgroundTint="@color/lightgray"/>
+                android:backgroundTint="@color/lightgray"
+                android:text="LightGray" />
 
             <Button
                 android:id="@+id/btnMagenta"
                 android:layout_width="match_parent"
                 android:layout_height="90dp"
+                android:backgroundTint="@color/magneta"
                 android:text="Magneta"
-                android:textColor="@color/black"
-                android:backgroundTint="@color/magneta"/>
+                android:textColor="@color/black" />
 
             <Button
                 android:id="@+id/btnBlack"
                 android:layout_width="match_parent"
                 android:layout_height="90dp"
-                android:text="Black"
-                android:backgroundTint="@color/black"/>
+                android:backgroundTint="@color/black"
+                android:text="Black" />
         </LinearLayout>
     </LinearLayout>
 

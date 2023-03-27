@@ -11,7 +11,7 @@
     <color name="red">#FF0000</color>
     <color name="blue">#000DF6</color>
     <color name="green">#02AA0A</color>
-    <color name="cian">#00FFFF</color>
+    <color name="cyan">#00FFFF</color>
     <color name="lightgray">#939393</color>
     <color name="magneta">#FF00FF</color>
 </resources>
