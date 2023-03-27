@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/tvHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Flashlight"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvHeader"
+        app:layout_constraintVertical_bias="0.356">
+
+        <LinearLayout
+            android:id="@+id/llLeftSide"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnRed"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:text="Red"
+                android:backgroundTint="@color/red"
+                />
+
+            <Button
+                android:id="@+id/btnWhite"
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:text="White"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/white"/>
+
+            <Button
+                android:id="@+id/btnBlue"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:text="Blue"
+                android:backgroundTint="@color/blue"/>
+
+            <Button
+                android:id="@+id/btnGreen"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:text="Green"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/green"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llRightSide"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="50dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnCian"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:text="Cian"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/cian"/>
+
+            <Button
+                android:id="@+id/btnLightGray"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:text="LightGray"
+                android:backgroundTint="@color/lightgray"/>
+
+            <Button
+                android:id="@+id/btnMagenta"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:text="Magneta"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/magneta"/>
+
+            <Button
+                android:id="@+id/btnBlack"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:text="Black"
+                android:backgroundTint="@color/black"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
